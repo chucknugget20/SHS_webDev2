@@ -1,0 +1,29 @@
+<!doctype html>
+<br>
+<h1> Heading code and hr is line and always put br before code and after each line of code  </h1>
+<br>
+<hr>
+<h2> Each hr is increased depending how many you want to have like h1 and next is h2 so forth  </h2>
+<br>
+<center><h3> Put center before to have in center </h3></center>
+<br>
+<h4><strong> Put strong in for bold inside h lines</strong></h4>
+<br>
+<h5><i> i is italicized and put in hr line </i></h5>
+<br>
+<h6><em> em is for emphasized code put in hr line </em> </h6>
+<br>
+<h7><sub> sub is subscript which makes the text small put in hr line or in a small word or sentance want small</sub></h7>
+<br>
+<hr8><sup> sup is superscript which makes text higher </sup></hr8>
+<br>
+<progress value="50" max="100" > </progress>
+
+
+
+
+
+
+
+
+
