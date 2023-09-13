@@ -19,6 +19,61 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
+        #banner{
+    border: 5px outset rgb(179, 0, 255);
+    background-color: lightblue;
+    text-align: center;
+    }
+    div#face {
+    width: 40vw;
+    height: 40vw;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 0 auto;
+    position: relative;
+    background: rgb(0, 72, 255);
+    margin-top: 2rem;
+}
+
+div#face, div#face * {
+    border-radius: 50%;
+}
+
+.eye {
+    width: 7%;
+    height: 25%;
+    background: #f10606;
+    position: absolute;
+    top: 20%;
+}
+
+.left.eye {
+    left: 20%;
+}
+
+.right.eye {
+    right: 80%;
+}
+
+.pupil {
+    background: #000;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 25%;
+    transform-origin: bottom;
+}
+
+#mouth {
+    position: relative;
+    width: 100%;
+    left: 20%;
+    height: 25%;
+    border: 1vw solid transparent;
+    border-radius: 50%;
+    top: 50%;
+    border-bottom-color: #000;
+}
 
     </style>
 </head>
@@ -49,12 +104,12 @@
             <h2>Examples of "Other" HTML elements</h2>
 
             <!-- Put your 8 examples of other elements ↓↓↓↓↓↓Below↓↓↓↓↓↓ here-->
-            <h7> <del> hello </del> - puts a strike through the words </h7>
-            <h8><ins> this is underlined </ins> - adds underline </h8>
-            <h9><sub> subscript </sub> -- subscript </h9>
-            <sup> superscript </sup> -- superscript
-            <small> this is small text </small> -- defines a small text
-            <progress value="22" max="100" > </progress > - represents the progress of a task
+            <p><del> hello </del> </p>
+            <p><ins> this is underlined </ins></p> 
+            <p><sub> subscript </sub></p>
+            <p><sup> superscript </sup></p>
+            <p><small> this is small text </small></p>
+            <p><progress value="22" max="100" > </progress ></p>
             <hr> — will place a horizontal line (no closing tag needed)
             \'<abbr title="World Health Organization" > WHO </abbr> -- used to show acronyms
             
@@ -62,12 +117,26 @@
 
             <!-- Put your 8 examples of other elements ↑↑↑↑↑↑Above↑↑↑↑↑↑ here-->
         </div>
-        <div id="Splatter">
+        <div id="banner">
+            <p> Hello </p>
         </div>
         <div id="face">
+             <div class="left eye">
+         <div class="pupil">
+         </div>
+    </div>
+    <div class="right eye">
+         <div class="pupil">
+         </div>
+    </div>
+    <div id="mouth">
+    </div>
 
         </div>
     </main>
+
+    <blockquote> Hi kihjhjhkjhj</blockquote>
+    <time> 11:57 </time>
 
 
     <footer>
