@@ -19,3 +19,11 @@ th {
 	color: #ffffff;
 	background-color: #003366;
 }
+body {
+	 background-image: url("images/Pelicans.png");
+	 background-size: cover;
+	 width: 100vw;
+	 height: 100vw;
+	 background-position: center;
+}
+
