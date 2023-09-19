@@ -19,4 +19,11 @@ th {
 	color: #ffffff;
 	background-color: #003366;
 }
-CSS add background image "AZ_Background"
+
+ol {
+	list-style-type:lower-alpha;
+}
+
+ul {
+	list-style-type: square;
+}
