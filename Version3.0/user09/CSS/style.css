@@ -19,8 +19,11 @@ th {
 	color: #ffffff;
 	background-color: #003366;
 }
-body {
-	 background-image: url(Version3.0/user09/images/GoofyPelican.jpeg);
-	 background-size: cover;
+
+ol{
+	list-style-type: upper-roman;
 }
 
+ul{
+	list-style-type: circle;
+}
