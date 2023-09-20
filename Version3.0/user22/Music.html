@@ -18,7 +18,8 @@
     <!-- CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" type="image/x-icon" href="images/JavinKIEL.ico" />
 
     <!-- JavaScript -->
     <!-- These are needed to get the responsive menu to work -->
@@ -41,7 +42,26 @@
             font-size: 12px;
             text-align: center;
         }
+
+        td {
+     color: #FF0000;
+     
+    }
+    body {
+  background-image: url("images/RIKONISAGOODBOYcopy.jpeg");
+}   
+h1{
+    background-color:#0dff00
+} 
+h2{
+    background-color: aqua;
+}
+#bottom{
+    background-color: #00f7ff;
+
+}
     </style>
+    
 </head>
 
 <body>
@@ -56,10 +76,10 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav">
                     <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Edit These Items in your Menu ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
-                    <a href="#" class="nav-item nav-link">Home</a>
+                    <a href="index.html" class="nav-item nav-link">Home</a>
                     <a href="#" class="nav-item nav-link">About Me</a>
-                    <a href="#" class="nav-item nav-link active">Music</a>
-                    <a href="#" class="nav-item nav-link disabled" tabindex="-1">Lists</a>
+                    <a href="Music.html" class="nav-item nav-link active">Music</a>
+                    <a href="list.html" class="nav-item nav-link active" tabindex="-1">Lists</a>
                     <a href="#" class="nav-item nav-link disabled" tabindex="-1">Games</a>
                     <a href="mailto:sample@gmail.com?Subject=Hello" class="nav-item nav-link disabled"
                         tabindex="-1">Contact</a>
@@ -90,8 +110,9 @@
             </thead>
             <tr>
                 <td>1</td>
-                <td>Leonard Cohen</td>
-                <td>Stranger Song</td>
+                <td style="color:#00f7ff; background-color:rgb(26, 11, 224);"
+                >Lenard Cohen</td>
+                <td>Stranger song </td>
                 <td><img src = "AlbumArt.jpeg"></td>
             </tr>
             <tr>
@@ -125,11 +146,9 @@
 
     <!---------------------------------- Begin the footer ------------->
     <footer class="wideMargin">
-        <div>
+        <div id="lower">
             Music can be found here <a href="https://music.amazon.com"> Amazon Music</a>
         </div>
     </footer>
     <!---------------------------------- End the footer ------------->
 </body>
-
-</html>
