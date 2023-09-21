@@ -19,7 +19,62 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
+    #banner{
+        border: 5px outset red;
+        background-color: lightblue;
+        text-align: center;
+    }
+    div#face {
+    width: 40vw;
+    height: 40vw;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 0 auto;
+    position: relative;
+    background: rgb(34, 228, 0);
+    margin-top: 2rem;
+    }
 
+    div#face, div#face * {
+        border-radius: 0%;
+    }
+
+    .eye {
+        width: 25%;
+        height: 25%;
+        background: #000000;
+        position: absolute;
+        top: 25%;
+    }
+
+    .left.eye {
+        left: 20%;
+    }
+
+    .right.eye {
+        right: 20%;
+    }
+
+    .pupil {
+        background: #ffffff;
+        width: 10%;
+        height: 10%;
+        position: relative;
+        left: 25%; 
+        top: 25%;
+        transform-origin: bottom;
+    }
+
+    #mouth {
+        position: relative;
+        width: 90%;
+        left: 4%;
+        height: 25%;
+        border: 1vw solid transparent;
+        border-radius: 50%;
+        top: 40%;
+        border-bottom-color: #000;
+    }
     </style>
 </head>
 
@@ -58,17 +113,63 @@
                 <br>
                 <small>defines a small text</small>
                 <br>
-                <progress value="22" max="100" > </progress > --represents the progress of a task
+                <progress value="22" max="100" > </progress > 
                 <br>
-                <hr> — will place a horizontal line (no closing tag needed)
+                <hr> 
                 <br>
-                <abbr title="World Health Organization" > WHO </abbr> -- used to show acronyms
+                <abbr title="World Health Organization" > WHO </abbr> 
             <!-- Put your 8 examples of other elements ↑↑↑↑↑↑Above↑↑↑↑↑↑ here-->
+                <br>
+                <hr>
+                <center><h1>Guys, this orange ^</h1></center>
+                <center>--------------------------------------</center>
+                <section>
+                    <p>
+                    Is <i>ginimenasaurous</i>
+                    <br>
+                    whatever you say, 
+                    <br>
+                    <h3>Gigantasaurous</h3>
+                    </p>
+                </section>
+
+                <section>
+                    <p>
+                    <br>
+                    ju-
+                    <br>
+                    <center>-uh-</center>
+                    <b>menic-</b>
+                    <br>bwa- <sub>uh</sub>
+                    <center>menifst-</center>
+                    <center><h4>-morphtsis</h4></center>
+                    <center><h1>. . .</h1></center>
+                    </p>
+                </section>
+                
+                <section>
+                    <p>
+                        <h1><sup>Mhm</sup>...</h1>
+                        <center><h1><i>Gimournus</i></h1></center>
+                    </p>
+                </section>
         </div>
         <div id="banner">
+            <p>
+                A silly little goober.
+            </p>
         </div>
         <div id="face">
-
+            <div class="left eye">
+                <div class="pupil">
+                </div>
+           </div>
+           <div class="right eye">
+                <div class="pupil">
+                </div>
+           </div>
+           <div id="mouth">
+           </div>
         </div>
     </main>
 
