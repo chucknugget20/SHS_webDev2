@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+              menu {
+            margin: 0;
+            padding: 0;
+        }
+
+        .wideMargin {
+            margin: 15px;
+        }
+
+        footer {
+            font-size: 12px;
+            text-align: center;
+        }
+        td {
+     color: #00ffff;
+    }
+        body{
+    background-image: url("/Users/238011/Desktop/Background.gif");
+    background-repeat: repeat;
+    background-size: 20%;
+    }
+        h1 {
+    font-family: "Papyrus", Papyrus, fantasy;
+    color: #00ffff;
+    }
+    .center {
+  padding: 365px 0;
+  text-align: center;
+    }
+        </style>
+        <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/styletwo.css">
+    </head>
+
+
+    <body>
+        <audio id="myAudio">
+            <source src="/Users/238011/Downloads/The Avengers Theme Song.mp3" type="audio/mpeg">
+        </audio><br>
+       
+        <button onclick="enableLoop()" type="button">Enable loop</button>
+        <button onclick="disableLoop()" type="button">Disable loop</button>
+        <div class="center">
+            <h1><center>Cheesy Website</center></h1>
+          </div>
+        <script>
+            var x = document.getElementById("myAudio");
+
+            function play() {
+                x.play();
+            }
+            
+            function enableLoop() { 
+              x.loop = true;
+              x.load();
+              x.play();
+            } 
+            
+            function disableLoop() { 
+              x.loop = false;
+              x.load();
+            } 
+        </script>        
+    </body>
+</html>
