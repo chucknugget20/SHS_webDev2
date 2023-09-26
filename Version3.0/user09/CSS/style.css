@@ -19,3 +19,11 @@ th {
 	color: #ffffff;
 	background-color: #003366;
 }
+
+ol{
+	list-style-type: upper-roman;
+}
+
+ul{
+	list-style-type: circle;
+}

@@ -1,4 +1,6 @@
 table {
+
+
 	font-family: "Marker Felt", "Comic Sans MS", fantasy;
 	color: #003366;
 	margin-left: auto;
@@ -19,3 +21,18 @@ th {
 	color: #ffffff;
 	background-color: #003366;
 }
+
+
+ol{
+list-style-type:lower-alpha;
+
+}
+
+
+ul{
+list-style-type:square;
+
+}
+
+
+

@@ -1,0 +1,46 @@
+<!DOC TYPE> 
+<html>
+    <head>
+        <style>
+        body{
+            background-image: url("images/eagle2.gif");
+        }
+        .center{
+            padding: 360px 0;
+            text-align: center;
+        }
+        </style>
+    </head>
+
+
+    <body>
+        <audio id="myAudio">
+            <source src="images/car.mp3" type="audio/mpeg">
+        </audio><br>
+       
+        <button onclick="enableLoop()" type="button">Enable loop</button>
+         <button onclick="disableLoop()" type="button">Disable loop</button>
+     <div class="center">
+     <h1 style="color:blue" class="p2">they aint believe in us, god did </h1>
+     </div>
+     <script>
+        var x = document.getElementById("myAudio");
+
+        function play() {
+            x.play();
+        }
+        
+        function enableLoop() { 
+          x.loop = true;
+          x.load();
+          x.play();
+        } 
+        
+        function disableLoop() { 
+          x.loop = false;
+          x.load();
+        } 
+    </script>
+
+    </body>
+</html>

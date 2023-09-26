@@ -7,7 +7,7 @@
 
 <head>
 
-    <title>Music for Web Dev User ## </title>
+    <title>Music for Web Dev User 26 </title>
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -18,7 +18,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
 
     <!-- JavaScript -->
     <!-- These are needed to get the responsive menu to work -->
@@ -41,6 +41,17 @@
             font-size: 12px;
             text-align: center;
         }
+
+        body {
+	        width: 100vw;
+	        height: 100vh;
+        	background-image: url(/Users/238011/Desktop/webpagebackground.jpeg);
+	        background-size: cover;
+        }
+        td {
+            color: #ff0000
+        }
+
     </style>
 </head>
 
@@ -56,12 +67,13 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav">
                     <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Edit These Items in your Menu ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
-                    <a href="#" class="nav-item nav-link">Home</a>
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
                     <a href="#" class="nav-item nav-link">About Me</a>
-                    <a href="#" class="nav-item nav-link active">Music</a>
-                    <a href="#" class="nav-item nav-link disabled" tabindex="-1">Lists</a>
-                    <a href="#" class="nav-item nav-link disabled" tabindex="-1">Games</a>
+                    <a href="Music.html" class="nav-item nav-link active">Music</a>
+                    <a href="list.html" class="nav-item nav-link active">Lists</a>
+                    <a href="#" class="nav-item nav-link active">Games</a>
                     <a href="mailto:sample@gmail.com?Subject=Hello" class="nav-item nav-link disabled"
+                    <link rel="icon" type="image/x-icon" href="/Users/238011/Documents/SHS_webDev2/SHS_webDev2/Version3.0/user26/images/CuriousGeorgeFavicon.ico" />
                         tabindex="-1">Contact</a>
                     <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Edit These Items in your Menu ↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
                 </div>
@@ -78,7 +90,7 @@
         <h1 class="text-left my-3" tabindex="0">Music</h1><!-- Edit this line for the title of your page -->
 
         <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Put your content below this line ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
-        <h2>My Top 5 Favorite Songs of 2023</h2>
+        <h2 style="color:#FFFFFF;> My Top 5 Favorite Songs of 2023</h2>
         <table>
             <thead>
                 <tr>
@@ -89,7 +101,7 @@
                 </tr>
             </thead>
             <tr>
-                <td>1</td>
+                <td style="color:#00FF00; background-color:sienna;">1</td>
                 <td>Dominic Fike</td>
                 <td>Mona Lisa</td>
                 <td><img src="SpiderManAlbum.jpeg"></td>
@@ -100,7 +112,7 @@
                 <td>Dogtooth</td>
                 <td><img src="Call_Me_If_You_Get_Lost_album_cover.jpg"></td>
             </tr>
-            <tr>
+            <tr style="color:#00FF00; background-color:red;">
                 <td>3</td>
                 <td>Coi Leray, Metro Boomin</td>
                 <td>Self Love</td>
