@@ -11,11 +11,19 @@ table {
 tr {
 	border: 1px solid #ffffff;
 	text-align: center;
-	background-color:#9FB6CD; 
+	background-color:#3d85cd; 
 }
 
 th {
 	text-align: center;
 	color: #ffffff;
 	background-color: #003366;
+}
+
+ol{
+	list-style-type: lower-alpha;
+}
+
+ul{
+	list-style-type: square;
 }
