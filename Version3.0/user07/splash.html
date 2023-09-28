@@ -2,6 +2,9 @@
 <html>
     <head>
         <style>
+            body{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
             div {
                 padding: 5px;
                 background-color: white;
@@ -13,7 +16,11 @@
             }
             #banner{
                 width: 100%;
-                height: 5vh;
+                height: 10vh;
+            }
+            #menu {
+                width: 100%;
+                height: 10px;
             }
             #nav{
                 width: 15%;
@@ -23,25 +30,63 @@
                 flex:1;
                 height: 73vh;
             }
+            #footer {
+                height: 7.5vh;
+                width: 100%;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                width: 13%;
+                position:absolute;
+                height: 77%;
+                overflow: auto;
+                flex-wrap: wrap;
+            }
+            li a {
+                display: block;
+                color: black;
+                padding: 8px 16px;
+                text-decoration: none;
+            }
+            li a.active {
+                background-color:lightgreen;
+                color:white;
+            }
+            li a:hover:not(.active) {
+                background-color: gray;
+                color: white;
+            }
         </style>
     </head>
 
     <body>
         <div class="container">
             <div id="banner">
-    
+                
             </div>
     
             <div id="menu">
-    
+                
             </div>
     
             <div id="nav">
-    
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="list.html">Lists</a></li>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="aboutMe.html">About me</a></li>
+                </ul>
             </div>
     
             <div id="content">
-            
+                <center><h1>Ewan, Arush, Emrys</h1></center>
+                <center><img src="images/Crazy.png" alt="realism-rat-drawing" style="height: 350px; width: 350px;"></center>
+            </div>
+
+            <div id="footer">
+                
             </div>
         </div>
     
