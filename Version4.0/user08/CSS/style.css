@@ -25,6 +25,23 @@
 
 .octopus {
 	background-color: peru;
+	border-radius: 100%;
+}
+
+.blammed {
+	border-radius: 10%;
+	border: #ff0000;
+}
+
+.beans{
+	background-color: yellowgreen;
+	color: yellow;
+	padding: 20px;
+	text-align: left;
+	text-decoration: none;
+	font-size: 8px;
+	margin: 4px 2px;
+	cursor: pointer;
 }
 
 td{
