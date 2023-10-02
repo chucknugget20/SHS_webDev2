@@ -11,11 +11,11 @@
 	cursor: pointer;
 }
 
-.button1 {
+.button-smallRadius {
 	border-radius: 8px;
 }
 
-.button2 {
+.button-largeRadius {
 	border-radius: 30%;
 }
 
@@ -49,10 +49,39 @@ h1, h2, h3, h4, h5, h6{
 	transform: rotate(45deg);
 	width: 100px;
 	height: 100px;
-	transform: rotate(45deg);
 }
 
 .athlete {
 	background-color: #00ffff;
 	border: none;
+}
+
+.title{
+	color: red;
+	font-family: 'Trebuchet MS', sans-serif; 
+  }
+  
+  .title-large {
+	font-size: 2rem;
+  }
+  
+  .title-small {
+	font-size: .5rem;
+  }
+
+  #morecontent {
+	background-color: yellow;
+  }
+
+
+  #hireButtons {
+	background-color: rgb(255, 0, 170);
+ } 
+ 
+  #footerTable {
+	background-color: aquamarine;
+  }
+
+  *{
+	font-family: "Gill Sans", sans-serif; 
 }
