@@ -102,3 +102,17 @@ h1, h2, h3, h4, h5, h6{
   .title-small {
 	font-size: .5rem;
   }
+  #morecontent {
+	background-color: yellow;
+  }
+  #hireButtons{
+	background-color:  blue;
+  }
+  #footerTable{
+	background-color: pink;
+  }
+  *{
+    text-align:right;
+    border: 2px solid black;
+	font-family: Verdana, sans-serif;
+}
