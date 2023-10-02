@@ -1,10 +1,9 @@
-.button {
+.allButtons {
 	box-shadow: 0px 0px 5px 5px #3e7327;
 	background-color: #4CAF50;
 	border: none;
 	color: white;
 	padding: 20px;
-	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
@@ -12,15 +11,15 @@
 	cursor: pointer;
 }
 
-.button1 {
+.slightRound {
 	border-radius: 8px;
 }
 
-.button2 {
+.mediumRound {
 	border-radius: 30%;
 }
 
-.button3 {
+.bigRound {
 	border-radius: 45%;
 }
 
@@ -47,10 +46,15 @@ h1, h2, h3, h4, h5, h6{
 	text-align:center;
 }
 
-.button:hover{
+.light:hover{
 	background:linear-gradient(to bottom, #56f208 5%, #246406 100%);
 	background-color:#72b352;
 }
+
+.dark:hover{
+	background:linear-gradient(to top, #56f208 5%, #246406 100%);
+	background-color:#72b352;
+}	
 
 .title{
 	color: rgba(17, 92, 34, 0.821);
@@ -63,4 +67,20 @@ h1, h2, h3, h4, h5, h6{
   
 .title-small {
 	font-size: .5rem;
+}
+
+#morecontent {
+	background-color: green;
+}
+
+#hireButtons{
+	background-color: #18860914;
+}
+
+#footerTable{
+	background-color: #18860914;
+}
+
+*{
+    text-align:center;
 }
