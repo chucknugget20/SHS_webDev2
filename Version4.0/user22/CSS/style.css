@@ -11,11 +11,11 @@
 	cursor: pointer;
 }
 
-.button1 {
+.Button-SmallRadius {
 	border-radius: 8px;
 }
 
-.button2 {
+.Button-LargeRadius {
 	border-radius: 30%;
 }
 
@@ -35,3 +35,44 @@ table{
 h1, h2, h3, h4, h5, h6{
 	text-align:center;
 }	
+
+
+.JAVIN{
+	background-color: cyan;
+	color:red;
+}
+
+.FRIDGE{
+	background-color: black;
+	color: lime;
+}
+
+.IDK{
+	background-color: blue;
+	color:cyan;
+}
+
+.title{
+	color: red;
+	font-family: 'Trebuchet MS', sans-serif; 
+  }
+  
+  .title-large {
+	font-size: 2rem;
+  }
+  
+  .title-small {
+	font-size: .5rem;
+  }
+  #morecontent{
+	background-color: yellow;
+  }
+  #footerTable{
+	background-color: goldenrod;
+  }
+  #hireButtons{
+	background-color: midnightblue;
+  }
+  *{
+	font-family: 'Courier New', Courier, monospace;
+  }
