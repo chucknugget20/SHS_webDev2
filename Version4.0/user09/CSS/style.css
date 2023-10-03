@@ -11,7 +11,7 @@ table {
 tr {
 	border: 1px solid #ffffff;
 	text-align: center;
-	background-color:#9FB6CD; 
+	background-color: #9FB6CD;
 }
 
 th {
@@ -19,6 +19,7 @@ th {
 	color: #ffffff;
 	background-color: #003366;
 }
+
 .button {
 	background-color: #4CAF50;
 	border: none;
@@ -43,55 +44,71 @@ th {
 .red {
 	background-color: #ff0000;
 }
+
 .aqua {
 	background-color: aqua;
 }
+
 .purple {
 	background-color: purple;
 }
+
 .orange {
 	background-color: orange;
 }
+
 .buttonaqua {
-	border-radius: 100%; 
+	border-radius: 100%;
+	padding: 30px
 }
+
 .buttonpurple {
 	padding: 15px;
 }
 
-td{
-	padding:20px;
+td {
+	padding: 20px;
 }
 
-table{
+table {
 	margin-left: auto;
 	margin-right: auto;
 }
 
-h1, h2, h3, h4, h5, h6{
-	text-align:center;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-align: center;
 }
-.title{
+
+.title {
 	color: red;
-	font-family: 'Trebuchet MS', sans-serif; 
-  }
-  
-  .title-large {
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+.title-large {
 	font-size: 2rem;
-  }
-  
-  .title-small {
+}
+
+.title-small {
 	font-size: .5rem;
-  }
-  #morecontent {
+}
+
+#morecontent {
 	background-color: yellow;
-  } 
-  #hireButtons{
+}
+
+#hireButtons {
 	font-size: large;
-  }
-  #footerTable{
+}
+
+#footerTable {
 	color: goldenrod;
-  }
-  *{
-    font-style: italic; 
+}
+
+* {
+	font-style: italic;
 }
