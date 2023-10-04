@@ -53,7 +53,7 @@ th {
 	background-color: purple;
 }
 
-.orange {
+.orangeback {
 	background-color: orange;
 }
 
@@ -109,6 +109,3 @@ h6 {
 	color: goldenrod;
 }
 
-* {
-	font-style: italic;
-}
