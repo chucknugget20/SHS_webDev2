@@ -48,10 +48,7 @@ h1, h2, h3, h4, h5, h6{
   .title-small {
 	font-size: .5rem;
   }
-  *{
-    text-align:right;
-    border: 2px solid black;
-}
+  
  @font-face {
   font-family: myFirstFont;
   src: url(sansation_light.woff);
