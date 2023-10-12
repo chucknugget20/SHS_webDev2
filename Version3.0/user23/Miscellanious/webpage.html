@@ -1,0 +1,48 @@
+<!DOC TYPE> 
+<html>
+    <head>
+        <style>
+        body {
+        background-image: url("soccerGif.gif");
+            background-color: #adf7dc; 
+        }
+        p {
+        height: 300px;
+        line-height: 90px;
+        text-align: center;
+        }
+           </style>
+    </head>
+
+    <script>
+        var x = document.getElementById("myAudio");
+
+        function play() {
+            x.play();
+        }
+        
+        function enableLoop() { 
+          x.loop = true;
+          x.load();
+          x.play();
+        } 
+        
+        function disableLoop() { 
+          x.loop = false;
+          x.load();
+        } 
+    </script>
+
+    <body>
+        <p 
+        <body>
+        <center><H1>NUTMEGGG!!!</H1></center>
+        </p>
+        <audio id="myAudio">
+            <source src="yourAudioFile.mp3" type="audio/mpeg">
+        </audio><br>
+       
+        <button onclick="enableLoop()" type="button">Enable loop</button>
+         <button onclick="disableLoop()" type="button">Disable loop</button>
+    </body>
+</html>

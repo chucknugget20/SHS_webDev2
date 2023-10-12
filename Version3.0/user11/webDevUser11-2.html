@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Version 2.0
+        Name: Sam Lindeen 
+        Date Completed:
+    -->
+
+<head>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link rel="stylesheet" href="CSS/style.css">
+        
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>User 11 Version 2.0 </title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="SHS WebDev Tags and DIV's">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+    #banner{
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+    }
+    div#face {
+    width: 40vw;
+    height: 40vw;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 0 auto;
+    position: relative;
+    background: green;
+    margin-top: 2rem;
+}
+
+div#face, div#face * {
+    border-radius: 50%;
+}
+
+.eye {
+    width: 25%;
+    height: 25%;
+    background: #fff;
+    position: absolute;
+    top: 20%;
+}left.eye {
+    left: 10%;
+}
+
+.right.eye {
+    right: 0%;
+}
+
+.pupil {
+    background: #000;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 25%;
+    transform-origin: bottom;
+}
+
+#mouth {
+    position: relative;
+    width: 60%;
+    left: 20%;
+    height: 25%;
+    border: 1vw solid transparent;
+    border-radius: 50%;
+    top: 50%;
+    border-bottom-color: #000;
+}
+        menu {
+            margin: 0;
+            padding: 0;
+        }   
+    </style>
+</head>
+
+<body>
+    <menu>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a href="http://shakonet.isd720.com" class="navbar-brand">WebDev</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Edit These Items in your Menu ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="aboutme.html" class="nav-item nav-link active">About Me</a>
+                    <a href="music.html" class="nav-item nav-link active" tabindex="-1">Music</a>
+                    <a href="list.html" class="nav-item nav-link active" tabindex="-1">Lists</a>
+                    <a href="#" class="nav-item nav-link disabled" tabindex="-1">Games</a>
+                    <a href="mailto:sample@gmail.com?Subject=Hello" class="nav-item nav-link disabled"
+                        tabindex="-1">Contact</a>
+                    <a href="webDevUser11-1.html" class="nav-item nav-link active">Unit 1</a>
+                    <a href="webDevUser11-2.html" class="nav-item nav-link active">Unit 2</a>
+                    <a href="cheesyweb.html" class="nav-item nav-link active">Cheesy Website</a>
+                    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Edit These Items in your Menu ↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
+                </div>
+                <div class="navbar-nav ml-auto">
+                    <a href="#" class="nav-item nav-link disabled">Login</a>
+                </div>
+            </div>
+        </nav>
+    </menu>
+    
+    <main class="wideMargin">
+
+        <!-- Your 1st Heading-->
+        <h1>My Website</h1>
+        <div id="tags">
+            <p>
+                This is my third webpage! I was able to code some of the HTML and CSS in order to make it.
+                Watch out world of web design here I come!
+            </p>
+
+            <h2>this is heading number 2</h2>
+
+            <!-- Put your Headings ↓↓↓↓↓↓Below↓↓↓↓↓↓ here-->
+            <h1>example of heading 1</h1>
+            <h2>example of heading 2</h2>
+            <h3>example of heading 3</h3>
+            <h4>example of heading 4</h4>
+            <h5>example of heading 5</h5>
+            <h6>example of heading 6</h6>
+            <!-- Put your Headings ↑↑↑↑↑↑Above↑↑↑↑↑↑ here-->
+
+            <h2>Examples of "Other" HTML elements</h2>
+
+            <!-- Put your 8 examples of other elements ↓↓↓↓↓↓Below↓↓↓↓↓↓ here-->
+            <del>Hello</del> - puts a strike through the words
+            <ins>Hello</ins> - adds underline 
+            <sub>Hello</sub> -- subscript
+            <sup>Hello</sup> -- superscript
+            <small>Hello</small> -- defines a small text
+            <progress value="22" max="100" > Hello </progress > - represents the progress of a task
+            <hr> — will place a horizontal line (no closing tag needed)
+            <abbr title="World Health Organization" > WHO </abbr> -- used to show acronyms
+
+            <!-- Put your 8 examples of other elements ↑↑↑↑↑↑Above↑↑↑↑↑↑ here-->
+        </div>
+        <div id="banner">this is the Div Id banner
+        </div>
+        <div id="face"> <div class="left eye">
+            <div class="pupil">
+            </div>
+       </div>
+       <div class="right eye">
+            <div class="pupil">
+            </div>
+       </div>
+       <div id="mouth">
+       </div>
+
+        </div>
+    </main>
+
+
+    <footer>
+
+        <p>
+            <center> Webpage made by <a href="#" target="_blank">[Sam Lindeen]</a></center>
+        </p>
+        
+    </footer>
+</body>
+
+</html>

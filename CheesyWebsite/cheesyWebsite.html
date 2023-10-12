@@ -1,0 +1,57 @@
+<!DOC TYPE> 
+<html>
+    <head>
+        <style>
+            body { background-image:url('peanutbutter.gif'); background-repeat:repeat; }
+        </style>
+            
+            <h1>
+                <style>
+               h1{
+               font-family: Copperplate, Papyrus, fantasy;
+                 }
+              
+                
+              
+                 h1 {
+                padding: 100px 0;
+                text-align: center;
+                 }
+              </style>
+            </h1>
+    </head>
+
+    
+    <body>
+    
+        <audio id="myAudio">
+            <source src="peanutbutterjam.mp3" type="audio/mpeg">
+        </audio><br>
+       
+        <button onclick="enableLoop()" type="button">Enable loop</button>
+         <button onclick="disableLoop()" type="button">Disable loop</button>
+
+                <div class="center">
+                <h1 style="color:red" class="p2">PEANUT BUTTER AND JAM</h1>
+                </div>
+
+         <script>
+            var x = document.getElementById("myAudio");
+
+            function play() {
+                x.play();
+            }
+            
+            function enableLoop() { 
+              x.loop = true;
+              x.load();
+              x.play();
+            } 
+            
+            function disableLoop() { 
+              x.loop = false;
+              x.load();
+            } 
+        </script>
+    </body>
+</html>

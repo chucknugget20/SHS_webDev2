@@ -4,7 +4,16 @@
         Name:
         Date Completed:
     -->
-
+    <h1>Arush Manem</h1>
+    <section>
+        <h2>Arush is a genius</h2>
+        <p>He's a genius because he knows what he's doing in this class and usually does it well</p>
+    </section>
+    
+    <section>
+        <h2>He is also an athlete</h2>
+        <p>He's an athlete because he plays sports and enjoys them</p>
+    </section>
 <head>
 
     <title>User ## Version 2.0 </title>
@@ -19,7 +28,61 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
+banner{
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+}
+div#face {
+    width: 40vw;
+    height: 40vw;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 0 auto;
+    position: relative;
+    background: yellow;
+    margin-top: 2rem;
+}
 
+div#face, div#face * {
+    border-radius: 50%;
+}
+
+.eye {
+    width: 25%;
+    height: 25%;
+    background: #fff;
+    position: absolute;
+    top: 20%;
+}
+
+.left.eye {
+    left: 20%;
+}
+
+.right.eye {
+    right: 20%;
+}
+
+.pupil {
+    background: #000;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 25%;
+    transform-origin: bottom;
+}
+
+#mouth {
+    position: relative;
+    width: 60%;
+    left: 20%;
+    height: 25%;
+    border: 1vw solid transparent;
+    border-radius: 50%;
+    top: 50%;
+    border-bottom-color: #000;
+}
     </style>
 </head>
 
@@ -29,27 +92,50 @@
         <!-- Your 1st Heading-->
         <h1>About Me</h1>
         <div id="tags">
+            <hr>
             <p>
-                This is my first webpage! I was able to code all the HTML and CSS in order to make it.
+                This is my first webpage! I was able to code all the HTML and  in order to make it.
                 Watch out world of web design here I come!
             </p>
 
             <h2>Heading Examples</h2>
 
             <!-- Put your Headings ↓↓↓↓↓↓Below↓↓↓↓↓↓ here-->
-
+                <h1>Arush Heading 1</h1>
+                <h2>Arush Heading 2</h2>
+                <h3>Arush Heading 3</h3>
+                <h4>Arush Heading 4</h4>
+                <h5>Arush Heading 5</h5>
+                <h6>Arush Heading 6</h6>
             <!-- Put your Headings ↑↑↑↑↑↑Above↑↑↑↑↑↑ here-->
 
             <h2>Examples of "Other" HTML elements</h2>
 
             <!-- Put your 8 examples of other elements ↓↓↓↓↓↓Below↓↓↓↓↓↓ here-->
-
+                <del>strikethrough text</del>
+                <ins>underline text</ins>
+                <sub>subscript</sub>
+                <sup>superscript</sup>
+                <small>small text</small>
+                <progress>value="22" max="200"</progress> 
+                <hr>
+                <p>I just made a line</p>
+                <abbr title="New York City" > NYC </abbr>
             <!-- Put your 8 examples of other elements ↑↑↑↑↑↑Above↑↑↑↑↑↑ here-->
         </div>
         <div id="banner">
         </div>
         <div id="face">
-
+            <div class="left eye">
+                <div class="pupil">
+                </div>
+           </div>
+           <div class="right eye">
+                <div class="pupil">
+                </div>
+           </div>
+           <div id="mouth">
+           </div>
         </div>
     </main>
 
