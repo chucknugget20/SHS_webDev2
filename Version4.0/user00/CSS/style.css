@@ -1,3 +1,5 @@
+@import url(rainbow.css);
+
 .button {
 	background-color: #4CAF50;
 	border: none;
@@ -11,11 +13,11 @@
 	cursor: pointer;
 }
 
-.button1 {
+.button-smallRadius {
 	border-radius: 8px;
 }
 
-.button2 {
+.button-largeRadius {
 	border-radius: 30%;
 }
 
@@ -35,3 +37,63 @@ table{
 h1, h2, h3, h4, h5, h6{
 	text-align:center;
 }
+
+.octopus{
+	background-color: red;
+	color: white;
+	border: 1px solid black;
+	border-radius: 80%;
+	padding: 10px;
+
+}
+
+.money{
+	transform: rotate(210deg) scaleX(-1);
+	
+}
+
+.title{
+	color: red;
+	font-family: 'Trebuchet MS', sans-serif; 
+  }
+  
+  .title-large {
+	font-size: 2rem;
+  }
+  
+  .title-small {
+	font-size: .5rem;
+  } 
+
+  #morecontent {
+	background-color: yellow;
+  }
+
+  #hireButtons{
+	  background-color:aqua;
+  }
+
+  #footerTable{
+	  background-color: gray;
+  }
+
+  #knowledge > * {
+	border: 3px red solid;
+   }
+
+   p + * {
+	background-color: #FFFF00;
+   }
+
+   
+   
+   div li::marker{
+	content:"😜 ";
+   }
+   
+   td:hover {
+	background-color: black;
+  }
+   
+   
+
