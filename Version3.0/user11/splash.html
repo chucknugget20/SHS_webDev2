@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                padding: 5px;
+                background-color: chartreuse;
+                border: 1px solid rgb(220, 208, 208);
+            }
+
+            .container{
+                display:flex;
+                flex-wrap: wrap;
+            }
+
+            #banner{
+                width: 100%;
+                height: 10vh;
+            }
+
+            #menu{
+                width: 100%;
+                height: 3vh;
+            }
+
+            #nav{
+                width: 15%;
+                height: 70vh;
+            }
+
+            #content{
+                flex:1;
+                height: 70vh;
+            }
+
+            #footer{
+                width: 100%;
+                height: 5vh;
+            }
+
+            ul{
+                margin: 0;
+                padding: 0;
+                width: 13%;
+                position: fixed;
+                overflow: fixed;
+                flex-wrap: wrap;
+            }
+
+            li a{
+                display: block;
+                color: black;
+                padding: 8px 16px;
+            }
+        </style>
+    </head>
+    
+    
+    <body>
+        <div class="container">
+            <div id="banner">
+                
+            </div>
+            <div id="menu">
+
+            </div>
+            <div id="nav">
+                <ul style="list-style: none;">
+                    <li><a class="active" href="webDevUser11-1.html"> Version 1 </a></li>
+                    <li><a class="active" href="webDevUser11-2.html"> Version 2 </a></li>
+                    <li><a class="active" href="index.html"> Version 3</a></li>
+                    <li><a class="active" href="cheesyweb.html"> Cheesy website </a></li>
+                </ul>
+            </div>
+            <div id="content">
+            
+            </div>
+            <div id="footer">
+
+            </div>
+        </div>
+    </body>
+</html>
