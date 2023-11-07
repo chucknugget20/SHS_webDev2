@@ -1,21 +1,83 @@
-table {
-	font-family: "Marker Felt", "Comic Sans MS", fantasy;
-	color: #003366;
+@import url(rainbow.css);
+.button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.button-radius-small {
+	border-radius: 8px;
+}
+
+.button-radius-large {
+	border-radius: 30%;
+}
+
+.red {
+	background-color: #ff0000;
+}
+
+.button3 {
+	background-color: black;
+	color: aliceblue;
+	border: 1px solid whitesmoke;
+	border-radius: 10px
+}
+
+.button4 {
+	padding: 20px;
+	text-align: center;
+	background-color: navy;
+	color: white;
+	border-radius: 5px;
+	font-family: cursive;
+}
+
+.button0 {
+	border-radius: 50%;
+	border: 2.5px solid red;
+	font-family: 'Courier New', Courier, monospace;
+	background-color: crimson;
+	color:aliceblue;
+}
+
+td{
+	padding:20px;
+}
+
+table{
 	margin-left: auto;
 	margin-right: auto;
-	text-align: left;
-	border-collapse: collapse;
-	cellspacing: 0px;
 }
 
-tr {
-	border: 1px solid #ffffff;
-	text-align: center;
-	background-color:#9FB6CD; 
+h1, h2, h3, h4, h5, h6{
+	text-align:center;
 }
-
-th {
-	text-align: center;
-	color: #ffffff;
-	background-color: #003366;
+.title{
+	color: red;
+	font-family: 'Trebuchet MS', sans-serif; 
+}
+  
+.title-large {
+	font-size: 2rem;
+}
+  
+.title-small {
+	font-size: .5rem;
+}
+#hireButtons {
+	background-color: mediumaquamarine;
+}
+#footerTable {
+	background-color: violet;
+}
+td:hover {
+	background-color: black;
 }

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--Version 2.0
-        Name:
+        Name: Sam Lindeen 
         Date Completed:
     -->
 
 <head>
 
-    <title>User ## Version 2.0 </title>
+    <title>User 11 Version 2.0 </title>
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -19,7 +19,59 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
+    #banner{
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+    }
+    div#face {
+    width: 40vw;
+    height: 40vw;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 0 auto;
+    position: relative;
+    background: green;
+    margin-top: 2rem;
+}
 
+div#face, div#face * {
+    border-radius: 50%;
+}
+
+.eye {
+    width: 25%;
+    height: 25%;
+    background: #fff;
+    position: absolute;
+    top: 20%;
+}left.eye {
+    left: 10%;
+}
+
+.right.eye {
+    right: 0%;
+}
+
+.pupil {
+    background: #000;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 25%;
+    transform-origin: bottom;
+}
+
+#mouth {
+    position: relative;
+    width: 60%;
+    left: 20%;
+    height: 25%;
+    border: 1vw solid transparent;
+    border-radius: 50%;
+    top: 50%;
+    border-bottom-color: #000;
+}
     </style>
 </head>
 
@@ -27,28 +79,50 @@
     <main class="wideMargin">
 
         <!-- Your 1st Heading-->
-        <h1>About Me</h1>
+        <h1>My Website</h1>
         <div id="tags">
             <p>
-                This is my first webpage! I was able to code all the HTML and CSS in order to make it.
+                This is my third webpage! I was able to code some of the HTML and CSS in order to make it.
                 Watch out world of web design here I come!
             </p>
 
-            <h2>Heading Examples</h2>
+            <h2>this is heading number 2</h2>
 
             <!-- Put your Headings ↓↓↓↓↓↓Below↓↓↓↓↓↓ here-->
-
+            <h1>example of heading 1</h1>
+            <h2>example of heading 2</h2>
+            <h3>example of heading 3</h3>
+            <h4>example of heading 4</h4>
+            <h5>example of heading 5</h5>
+            <h6>example of heading 6</h6>
             <!-- Put your Headings ↑↑↑↑↑↑Above↑↑↑↑↑↑ here-->
 
             <h2>Examples of "Other" HTML elements</h2>
 
             <!-- Put your 8 examples of other elements ↓↓↓↓↓↓Below↓↓↓↓↓↓ here-->
+            <del>Hello</del> - puts a strike through the words
+            <ins>Hello</ins> - adds underline 
+            <sub>Hello</sub> -- subscript
+            <sup>Hello</sup> -- superscript
+            <small>Hello</small> -- defines a small text
+            <progress value="22" max="100" > Hello </progress > - represents the progress of a task
+            <hr> — will place a horizontal line (no closing tag needed)
+            <abbr title="World Health Organization" > WHO </abbr> -- used to show acronyms
 
             <!-- Put your 8 examples of other elements ↑↑↑↑↑↑Above↑↑↑↑↑↑ here-->
         </div>
-        <div id="banner">
+        <div id="banner">this is the Div Id banner
         </div>
-        <div id="face">
+        <div id="face"> <div class="left eye">
+            <div class="pupil">
+            </div>
+       </div>
+       <div class="right eye">
+            <div class="pupil">
+            </div>
+       </div>
+       <div id="mouth">
+       </div>
 
         </div>
     </main>
@@ -57,9 +131,9 @@
     <footer>
 
         <p>
-            <center> Webpage made by <a href="#" target="_blank">[your name]</a></center>
+            <center> Webpage made by <a href="#" target="_blank">[Sam Lindeen]</a></center>
         </p>
-
+        
     </footer>
 </body>
 

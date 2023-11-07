@@ -19,7 +19,60 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
+        #banner{
+            border: 5px outset rgb(0, 255, 213);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}div#face {
+    width: 40vw;
+    height: 40vw;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 0 auto;
+    position: relative;
+    background: rgb(0, 255, 251);
+    margin-top: 2rem;
+}
 
+div#face, div#face * {
+    border-radius: 50%;
+}
+
+.eye {
+    width: 7%;
+    height: 8%;
+    background: #000000;
+    position: absolute;
+    top: 48%;
+}
+
+.left.eye {
+    left: 22%;
+}
+
+.right.eye {
+    right: 22%;
+}
+
+.pupil {
+    background: #000;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 25%;
+    transform-origin: bottom;
+}
+
+#mouth {
+    position: relative;
+    width: 50%;
+    left: 22%;
+    height: 32%;
+    border: 1vw solid transparent;
+    border-radius: 50%;
+    top: 50%;
+    border-bottom-color: #000000;
+}
     </style>
 </head>
 
@@ -47,9 +100,19 @@
             <!-- Put your 8 examples of other elements ↑↑↑↑↑↑Above↑↑↑↑↑↑ here-->
         </div>
         <div id="banner">
+            <p>someone likes taylor swift</p>
         </div>
         <div id="face">
-
+            <div class="left eye">
+                <div class="pupil">
+                </div>
+           </div>
+           <div class="right eye">
+                <div class="pupil">
+                </div>
+           </div>
+           <div id="mouth">
+           </div>
         </div>
     </main>
 
