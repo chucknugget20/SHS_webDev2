@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+
+
+    </head>
+
+
+    <body>
+        <!-- User Interface -->
+
+
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        adjective:
+                    </td>
+
+
+                    <td>
+                        <input type="text" id="adjOne">
+                    </td>
+                </tr>
+            </table>
+            <button id="Enter" onclick="madlib()">Enter</button>
+        
+        </div>
+
+
+        <div>
+            <p>
+                Have a <span id="blankOne"></span> Halloween!
+            </p>
+            <p>
+                Have a <span id="blanktwo"></span> spooky !
+            </p>
+            <p>
+                have some  <span id="blank3"></span> candy !
+            </p>
+        </div>
+
+
+
+
+
+
+        <!-- END user Interface-->
+
+
+
+
+        <script>
+            
+            function madlib(){
+                const wordOne = document.getElementById("adjOne").value;
+                const firstSpan = document.getElementById("blankOne");
+                blankOne.append(wordOne);
+                const wordtwo = document.getElementById("adjOne").value;
+                const Span2 = document.getElementById("blanktwo");
+                blanktwo.append(wordtwo);
+                const word3 = document.getElementById("adjOne").value;
+                const Span3 = document.getElementById("blank3");
+                blank3.append(word3);
+            }
+
+
+
+
+
+
+        </script>
+    </body>
+
+
+
+
+</html>
